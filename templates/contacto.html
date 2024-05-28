@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<body>
+      <h1><center>veterinaria de pelos</center></h1>
+  <header>
+     
+      <img src="/static/img/chat.jpg" width="200px">
+  </header>
+  
+  <nav>
+      <ul>
+          <li><a href="/index">Inicio</a></li>
+          <li><a href="/dinosaurios">dinosaurios</a></li>
+          <li><a href="/tlacu">tlacuaches</a></li>
+          <li><a href="/carac">caracoles</a></li>
+          <li><a href="/contacto">caracoles</a></li>
+          <li><a href="/contacto">contacto</a></li>
+      </ul>
+  </nav>
+<h1>
+    <CENTER> <b> ¡Contactanos! </b> </CENTER>
+      
+</h1>
+   <br>
+   <br>
+   <br>
+<form action="/agrega_comenta" method="post">
+   <div class="container">
+          <div class="form-row">
+               <div class="col-xs-12 ">
+                <div class="mb-3">
+                      <label for="correo" class="form-label">Escribe aqui tu correo electronico</label>
+                      <input type="email" class="form-control" name="correo" id="correo" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                      <label for="comentarios" class="form-label">Escribe tu mensaje</label>
+                      <input type="text" class="form-control" name="comentarios" id="comentarios"></input>
+                </div>
+                </div>
+          </div>
+    </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+{% endblock %}
+      
+      
+      
+
+

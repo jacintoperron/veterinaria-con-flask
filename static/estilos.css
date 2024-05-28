@@ -1,0 +1,57 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+    background-image:url(/static/img/fed.jpg)
+    
+}
+
+nav{
+    color:rgb(245, 70, 114);
+    background: linear-gradient(30deg,rgb(245, 52, 52),rgb(62, 62, 241));
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background: rgb(231, 88, 69);
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    background: rgb(231, 88, 69);
+    margin-bottom: 10px;
+}
+
+aside{
+    width: 30%
+    float: left;
+    background: orange;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    
+    clear:both;
+    background: rgb(26, 25, 25);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
